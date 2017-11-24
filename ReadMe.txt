@@ -1,4 +1,8 @@
-* Reference: http://haralick.org/journals/TexturalFeatures.pdf
+* GLCM(Gray-level Co-occurrence Matrix) Implementation using C language 
+- Implementation of GLCM features(http://haralick.org/journals/TexturalFeatures.pdf)  
+- 13 features Implementation in the haralick`s features.
+- gray-level quantization and some code optimization(ex: loop calculation) for fast processing speed.
+- No 3rd party lib dependency, OpenCV was used only for image I/O handling.
 
 * File Description
 - Param.h: parameters setting for quantization level, test image size, neighborhood pixel distance, angle range 
@@ -13,3 +17,5 @@
 - If you run the main fuction(GLCM_Test), you can see the results of the haralick`s features.
 - haralick`s features: Energy, Contrast, Correlation, Sum of Squares, Local Stability, Sum Average, Sum Variance, Sum Entropy, Entropy, Difference Variance, Difference Entropy, Information Measure Correlation 1 and Information Measure Correlation 2.
  
+ 
+
