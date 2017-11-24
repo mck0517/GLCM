@@ -12,6 +12,7 @@
 
 * Program Description
 - You can use any kind of OpenCV Version.
+- For the minimization of dynamic memory allocation, I use array buffer. Thus, You must set the width and height(IMAGE_WIDTH, IMAGE_HEIGHT in Param.h) of the image in advance. 
 - OpenCV was used only for image reading fuction(ex: cvLoadImage("lenna.bmp", CV_LOAD_IMAGE_GRAYSCALE)).
 - This program use only gray scale image format But you can use color image format using above opencv code.  
 - If you run the main fuction(Vision_Test.cpp), you can see the results of the haralick`s features.
